@@ -50,6 +50,7 @@ nav a {
     background-image: url(../images/header_bg.png);
     background-position: bottom right;
     background-repeat: no-repeat;
+    
 }
 
 .banner-content {
@@ -183,12 +184,35 @@ main section {
     font-size: 20px;
     font-weight: 600;
 }
-.download{
+
+.download {
     text-align: center;
+    margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
-    background-color:  #FFF8F3;
+    gap: 100px;
+    background-color: #FFF8F3;
     margin-top: 100px;
     padding: 130px 190px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+.social-links a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 32px;
+    border-radius: 5px;
+   background-color:  #FFF;
+   color: #757575;
+   border: 0;
+   width: 100%;
 }
